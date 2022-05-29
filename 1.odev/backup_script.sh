@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source /scripts/week1/backup_script.conf
+source ./backup_script.conf
 backup_date=$(date +"%d%m%Y_%H%M")
 
 for user in "$BACKUP_DIRS"*
