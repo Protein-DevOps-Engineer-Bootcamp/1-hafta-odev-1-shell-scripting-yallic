@@ -6,5 +6,5 @@ while :;do
   NOW=$(date)
   mail -s "$disk Disk usage Alert: $disk_usage" fatihyallic@gmail.com <<< "The partition ${disk} has used ${disk_usage} at $NOW"
 
-  sleep 10s
+  sleep 60s
 done
